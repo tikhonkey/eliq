@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "appTitle": "Eliq Drinks Catalog",
+    "logoFontColor": "#000",
+    "logoUrl": "assets/logo.svg"
+  },
+  "theme": {
+    "primary": "#3c1321",
+    "secondary": "#0b3d91",
+    "background": "#f7f9fc",
+    "surface": "#ffffff",
+    "text": "#0f172a"
+  },
+  "layout": {
+    "listColumns": 4,
+    "maxContentWidth": "1200px",
+    "showSearch": true,
+    "showPagination": true
+  },
+  "labels": {
+    "listTitle": "Popular Cocktails",
+    "ingredients": "Ingredients",
+    "instructions": "Instructions",
+    "back": "Back"
+  },
+  "api": {
+    "baseUrl": "https://www.thecocktaildb.com/api/json/v1/1",
+    "list": "/filter.php?a=Alcoholic",
+    "byId": "/lookup.php?i="
+  }
+}
